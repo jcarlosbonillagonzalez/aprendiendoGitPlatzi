@@ -1,9 +1,27 @@
 body {
-    color: darkred;
+    color: #000000;
     font-family: "Arial";
     text-align: center;
 }
 
 h1 {
     font-size: 5em;
+}
+
+.container {
+    margin: auto;
+    width: 94%;
+    border-radius: 5em;
+    border: solid 3px #000000;
+}
+
+.cabecera {
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.blog p {
+    font-size: 3em;
 }
