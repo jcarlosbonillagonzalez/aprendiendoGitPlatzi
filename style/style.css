@@ -1,9 +1,34 @@
 body {
-    color: darkred;
+    color: #000000;
     font-family: "Arial";
     text-align: center;
 }
 
 h1 {
     font-size: 5em;
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+}
+
+.container {
+    margin: auto;
+    width: 85%;
+    border-radius: 20px;
+    border: solid 3px #000000;
+    padding: 2em;
+}
+
+.cabecera {
+    width: 100%;
+    font-weight: bold;
+    font-size: 9em;
+    color: darkred;
+}
+
+.post p {
+    font-size: 1.3em;
+    font-family: sans-serif;
 }
