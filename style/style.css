@@ -9,6 +9,10 @@ h1 {
     text-align: left;
 }
 
+h4 {
+    text-align: right;
+}
+
 p {
     text-align: justify;
 }
@@ -21,14 +25,14 @@ p {
     padding: 2em;
 }
 
-.cabecera {
-    width: 100%;
-    font-weight: bold;
-    font-size: 9em;
-    color: darkred;
-}
-
 .post p {
     font-size: 1.3em;
     font-family: sans-serif;
+}
+
+ul {
+    text-decoration: none;
+    text-align: left;
+    font-size: 1em;
+    color: brown;
 }
