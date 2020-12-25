@@ -5,24 +5,25 @@ body {
 }
 
 h1 {
-    font-size: 5em;
-    text-align: left;
-}
-
-h4 {
-    text-align: right;
-}
-
-p {
-    text-align: justify;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.5em;
 }
 
 .container {
     margin: auto;
-    width: 85%;
+    width: 90%;
     border-radius: 20px;
     border: solid 3px #000000;
-    padding: 2em;
+}
+
+.cabecera {
+    text-align: left;
+    background-color: midnightblue;
+    width: 100%;
+    box-shadow: 0px 10px 10px black;
 }
 
 .post p {
@@ -35,4 +36,5 @@ ul {
     text-align: left;
     font-size: 1em;
     color: brown;
+    width: 95%;
 }
