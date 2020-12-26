@@ -21,8 +21,9 @@ h3 {
 .container {
     margin: auto;
     width: 90%;
-    border-radius: 20px;
     border: solid 3px #000000;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 90px;
 }
 
 .cabecera {
@@ -30,6 +31,10 @@ h3 {
     background-color: midnightblue;
     width: 100%;
     box-shadow: 4px 15px 15px black;
+}
+
+img {
+    width: 100%;
 }
 
 .post p {
