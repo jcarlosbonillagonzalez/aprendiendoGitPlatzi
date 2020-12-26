@@ -53,3 +53,18 @@ ul {
     display: inline-block;
     margin: auto;
 }
+
+.footer {
+    background-color: rgba(2, 2, 2, 0.89);
+    padding: 1.2em;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+span {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: rgb(187, 11, 11);
+}
