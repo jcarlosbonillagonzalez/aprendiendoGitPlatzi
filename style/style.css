@@ -61,6 +61,8 @@ ul {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-transform: uppercase;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 80px;
 }
 
 span {
