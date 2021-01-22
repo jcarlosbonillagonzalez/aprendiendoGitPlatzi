@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reporte Incidente</title>
+    <!-- En esta parte inicia los estilos los cuales se van a aplicar al pdf -->
+    <style type="text/css">
+        html {
+            box-sizing: border-box;
+            font-size: 62.5%;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        body {
+            font-size: 1.7rem;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+        }
+        
+        h3 {
+            font-size: 1.8rem;
+        }
+        
+        p {
+            font-size: 1.7rem;
+        }
+        
+        .wrapper {
+            max-width: 95%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+        }
+        
+        .wrapper>div {
+            border-radius: 5px;
+            padding: 1em;
+            color: #000000;
+        }
+        
+        .one {
+            grid-column: 1 / 2;
+            grid-row: 1;
+        }
+        
+        .two {
+            grid-column: 2 / 4;
+            grid-row: 1 / 2;
+        }
+        
+        .three {
+            grid-column: 1;
+            grid-row: 2 / 5;
+        }
+        
+        .four {
+            grid-column: 2 / 4;
+            grid-row: 2;
+        }
+        
+        .five {
+            grid-column: 2 / 4;
+            grid-row: 3 / 5;
+        }
+        
+        .six {
+            grid-column: 2 / 4;
+            grid-row: 5;
+        }
+        
+        .seven {
+            grid-column: 1;
+            grid-row: 5 / 6;
+        }
+        
+        .seven img {
+            width: 100%;
+            align-items: auto;
+        }
+        
+        .eight {
+            grid-column: 1 / 4;
+            grid-row: 6;
+        }
+        
+        .nine {
+            grid-column: 1 / 4;
+            grid-row: 7;
+        }
+    </style>
+    <!-- En esta parte FINALIZA los estilos los cuales se van a aplicar al pdf -->
+</head>
+
+<body>
+
+    <br>
+    <div class="contenido">
+
+
+        <div class="wrapper">
+            <div class="one">
+
+                <table style="padding-top: 3em; font-size: 1.4rem; width: 100%;">
+                    <tr>
+                        <th>CODIGO: </th>
+                        <th>AI-HSE-MEC-024</th>
+                    </tr>
+                    <tr>
+                        <th>VERSIÓN: </th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>FECHA DE CREACIÓN</th>
+                        <th>09/Oct/2020</th>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="two">
+                <img src='img/cabecera.PNG' width="100%">
+            </div>
+            <div class="three">
+                <fieldset>
+                    <legend>
+                        <h2>Tipo de Instalación</h2>
+                    </legend>
+                    <table>
+                        <tr>
+                            <th>Instalación existente:</th>
+                            <th>X</th>
+                        </tr>
+                        <tr>
+                            <th>Instalación nueva:</th>
+                            <th> </th>
+                        </tr>
+                        <tr>
+                            <th>Instalación con modificación significativa:</th>
+                            <th> </th>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h2>Caracteristicas Significativas</h2>
+                    </legend>
+                    <table>
+                        <tr>
+                            <th>Nueva tecnología implementada: </th>
+                            <th>X</th>
+                        </tr>
+                        <tr>
+                            <th>Nueva materia prima: </th>
+                            <th>X</th>
+                        </tr>
+                        <tr>
+                            <th>Nuevo producto: </th>
+                            <th>X</th>
+                        </tr>
+                        <tr>
+                            <th>No hay cambios: </th>
+                            <th>X</th>
+                        </tr>
+                    </table>
+                </fieldset>
+
+            </div>
+            <div class="seven">
+                <img src='img/proteje.PNG'>
+            </div>
+
+            <div class="four">
+                <table style="width: 100%; align-items: center; justify-content: center; text-align: center;">
+                    <tr style="background: #00365f; color: floralwhite; font-weight: bold;">
+                        <td style="border:none; padding: 0.5em;">FECHA </td>
+                        <td>CONTRATO </td>
+                        <td>LINEA DE NEGOCIO </td>
+                    </tr>
+                    <tr>
+                        <td>12/09/2020 </td>
+                        <td>SERROMATOSO </td>
+                        <td>BOGOTÁ D.C </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="five">
+                <table style="width: 100%;">
+                    <td colspan="3" style="background: yellow; color: #00365f; font-weight: bold; font-size: 1.4em; text-align: center;">RESPONSABLE DEL DILIGENCIAMIENTO</td>
+                    <tr style="padding: 1em; background-color: #00365f; color: #FFFFFF;">
+
+                        <th>Integrantes del Equipo</th>
+                        <th>Nombre</th>
+                        <th>Cargo Especifico</th>
+                    </tr>
+                    <tr>
+                        <td>Lider</td>
+                        <td>Juan Carlos Bonilla Gonzalez</td>
+                        <td>Desarrollador de software</td>
+                    </tr>
+                    <tr>
+                        <td>Supervisor</td>
+                        <td>Juan Carlos Bonilla Gonzalez Juan Carlos Bonilla Gonzalez</td>
+                        <td>Desarrollador de software</td>
+                    </tr>
+                    <tr>
+                        <td>Personal Training</td>
+                        <td>Juan Carlos Bonilla Gonzalez</td>
+                        <td>Desarrollador de software</td>
+                    </tr>
+                    <tr>
+                        <td>Otro</td>
+                        <td>Juan Carlos Bonilla Gonzalez</td>
+                        <td>Desarrollador de software</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="six ">
+                <table style="width: 100%;">
+                    <tr style="padding: 1em; background-color: #00365f; color: #FFFFFF;">
+                        <td style="padding: 0.7em;">Ingenieria de resilencia</td>
+                        <td>SI / NO</td>
+                    </tr>
+                    <tr>
+                        <td>¿Sabe ud si se han presentado accidentes relacionados con seguridad de procesos?</td>
+                        <td>SI</td>
+                    </tr>
+                    <tr>
+                        <td>¿Conoce las acciones implementadas luego del evento?</td>
+                        <td>NO</td>
+                    </tr>
+                </table>
+                <br>
+                <table style="width: 100%;">
+                    <tr style="padding: 0.7rem; background-color: #00365f; color: #FFFFFF;">
+                        <td style="padding: 1em;">Valoración</td>
+                        <td>Descripción</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.5rem; color: navy; background-color: green;">Bajo</td>
+                        <td>Puede generar lesiones menores o incidentes operacionales menores.</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.5rem;  color: navy; background-color:yellow;">Medio</td>
+                        <td>Puede generar lesiones incapacitantes o incendio, explosión o nube tóxica menores</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.5rem;  color: navy; background-color: red;">Alto</td>
+                        <td>Puede generar lesiones permanentes, daños generales o totales de las instalaciones y paradas generales de operación.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="eight">
+                <table style="width: 100%;">
+                    <tr style="padding: 0.7rem; background-color: #00365f; color: #FFFFFF;">
+                        <td style="padding: 1em;">SEÑALES DE ALERTAS FÍSICAS</td>
+                        <td>Si / No</td>
+                        <td>Valoración</td>
+                        <td>Observaciones si aplican</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Se sienten oleres extraños o diferentes a los cotidianos?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Observa daño físico en los equipos o estructuras?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Está la vibración de los equipos por fuera de los rangos aceptables?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Hay fugas o derrames evidentes?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Hay acomulación de polvo sobre superficies planas y edificios?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Es el uso de equipo de protección personal inconsistente o incorrecto?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Hay riesgo de colisión con lineas y equipos de procesos?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Hay paneles eléctricos y conductores abiertos?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Hay fuentes de ignición abiertas y sin controlar?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Estan las alcantarillas o sistemas de drenaje taponado?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Hay pernos sueltos o faltantes y componentes de equipos sin asegurar?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem;">¿Es evidente la corrosión y el deterioro de los equipos?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="nine">
+                <table style="width: 100%; ">
+                    <tr style="padding: 0.7rem; background-color: #00365f; color: #FFFFFF; ">
+                        <td style="padding: 1em; ">SEÑALES DE DESVIACIONES DE GESTIÓN</td>
+                        <td>Si / No</td>
+                        <td>Valoración</td>
+                        <td>Observaciones si aplican</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Hay condensación aparente en paredes internas y techos de las instalaciones de proceso?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Se ha inhibido algún sistema de seguridad o alarmas del proceso?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Se han realizado cambios en la planeación del trabajo o los equipos sin el análisis y aprobación de la compañia?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Se tiene by-passeado o fuera de servicios instrumentos de monitoreo, control y protección de la planta?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Se desvían instrumentos sin la gerencia de cambio adecuada?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Estan las inspecciones de los equipos vencidas?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Estan las pruebas de las válvulas de alivio anual vencidas?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Se usa el agua para incendios de la planta en el sistema de refrigeración de equipos o limpieza de plantas?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Hay desconocimiento de los procedimientos o su uso por parte de los operarios?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿Es el marcado o etiquetado de los equipos deficiente?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">¿La conexión a tierra no es adecuada?</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0.2rem; ">Otras. Si observas otra condición diferente a las enunciadas, describela</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
